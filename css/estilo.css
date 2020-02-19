@@ -1,0 +1,60 @@
+@keyframes girar{
+    from{
+        transfrom: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+*{
+    padding: 0;
+}
+#fotoyo{
+    width: 16rem;
+    height: 16rem;
+}
+header{
+    margin-left: 10%;
+    width: 80%;
+    border-style: solid;
+    border-radius: 9px;
+    border-width: 6px;
+}
+.div1{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.imapfd{
+    width: 6rem;
+    height: 6rem;
+    animation-name: girar;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.niv1{
+    height: 10px;
+    border-radius: 3px;
+    	animation-name: girar;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#est,#est1{
+    border-style: solid;
+    border-width: 5px;
+    align-items:center;
+    background-color: #0fa3b1;
+}
+.td1,.td2{
+    border-style: solid;
+    border-width: 5px;
+    align-items: center;
+    background-color: #f7a072;
+}
+body{
+        background-color: #ebebeb;
+}
